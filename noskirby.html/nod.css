@@ -1,0 +1,71 @@
+
+body {
+
+}
+
+.world{
+  text-align: center;
+  margin: auto;
+  width: 100px;
+}
+
+.kirby{
+  background-color: #ff99cc;
+  height: 100px;
+  width: 100px;
+  box-shadow: 3px 3px #000000;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+
+.kirby:active{
+  box-shadow: none;
+  position: relative;
+  top: 3px;
+  left: 3px;
+  background-color: #c83e69;
+}
+
+.kirby h1{
+  font-size: 50px;
+  color: #3366cc;
+
+  letter-spacing: 5px;
+}
+
+.kirby h1 h3 p:active{
+  padding-top: 30px;
+}
+
+.kirby h3{
+  color: white;
+  margin-left: 7px;
+  letter-spacing: 15px;
+  position: relative;
+  top: -173px;
+
+}
+
+.kirby p{
+  color: #ff6699;
+  width: 100%;
+  letter-spacing: 5px;
+  font-size: 30px;
+  position: relative;
+  top: -90px;
+}
+
+.kirby span{
+  color: #cc0000;
+}
+
+.sample {
+  color: black;
+  font-size: 1px;
+  border: 1px solid #000000;
+  display: inline-block;
+}
+
+.sample p{
+    padding: 0px 3px;
+}
